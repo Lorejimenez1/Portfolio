@@ -247,4 +247,7 @@ h1 {
   	.logo {
   		margin-top: 25px;
   	}
+  	.sidebar a {
+  		font-size: 12px;
+  	}
   }
