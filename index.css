@@ -14,8 +14,8 @@ main {
 	background: url("https://www.toptal.com/designers/subtlepatterns/patterns/broken_noise.png");
 	padding-top: 40px;
 	
-	
 }
+
 h1, p { 
 	text-align: center;
  }
@@ -25,7 +25,8 @@ body {
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0px 10px;
   font-family: 'Exo 2', sans-serif;
-  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/paper.png")
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/crossword.png")
+
   
  
 }
@@ -115,18 +116,22 @@ h1 {
   flex-direction: column ;
   list-style: none;
   width: 500px;
-  border: 1px solid grey;
+  border: 1px solid black;
   padding: 35px;
   border-top: none;
+  border-bottom: none;
+
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/school.png")
  
 }
 .content:hover {
-	background-color: #FFFAF0;
+	
 }
 .item a:hover {
 	background-color:  black; 
 }
 .item {
+
 	padding: 0;
 	display: block;
   font-weight: 600; 
