@@ -11,8 +11,9 @@ main {
 	position: fixed;
 	top: 0;
 	left: 0;
-	background: url("https://www.toptal.com/designers/subtlepatterns/patterns/broken_noise.png");
-	padding-top: 40px;
+	background: url("https://www.toptal.com/designers/subtlepatterns/patterns/gray_sand.png");
+  padding-top: 40px;
+  border-right: 2px solid wheat;
 	
 }
 
@@ -32,7 +33,7 @@ body {
 }
 
 .sidebar a {
-	color: silver;
+	color: whitesmoke;
   padding: 20px 8px 6px 16px;
   text-decoration: none;
   font-size: 18px;
@@ -56,7 +57,7 @@ ul {
 }
 
 .logo {
-	
+	padding-left: 5px;
 	height: 140px;
 	width: 140px;
 }
@@ -65,7 +66,7 @@ ul {
 }
 
 .intro-container {
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid #bd9328;
 }
 .intro-container p {
 
@@ -73,22 +74,24 @@ ul {
 }
 
 .intro-logo {
-	padding: 0;
+	padding-bottom: 5px;
 	display: block;
 	margin: auto;
-	height: 180px; 
-	width: 400px;
+	height: 200px; 
+	width: 200px;
 }
 h1 {
 	color: #080808;
 	font-weight: bold;
-	font-family: 'Unlock', cursive;
+  font-family: 'Asap', sans-serif;
+
+  padding: 0;
 }
 
   .projects-container, .tech-container { 
 	width: 100%;
 
-	border-bottom: 1px solid #898E8C;
+	border-bottom: 1px solid #bd9328;
 	 display: flex;
 	 flex-wrap: wrap;
   
@@ -121,12 +124,10 @@ h1 {
   border-top: none;
   border-bottom: none;
 
-  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/school.png")
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/light_alu.png")
  
 }
-.content:hover {
-	
-}
+
 .item a:hover {
 	background-color:  black; 
 }
@@ -175,7 +176,7 @@ h1 {
 .skill:first-child {
 	padding-top: 10px;
 	height: 80px;
-	color: #b38600; 
+	color:  #93721f; 
   font-size: 24px;
   text-align: center;
  
@@ -184,9 +185,7 @@ h1 {
   height: 300px;
   padding: 0;
   margin: 0;
-  
-  
-  display: flex; /* or inline-flex */
+  display: flex; 
   flex-direction: column ;
   list-style: none;
   width: 500px;
@@ -198,15 +197,18 @@ h1 {
 	padding: 5px;
 }
 .skill {
-	border: 2px solid #766F57;
-	background-color: 	#FFF8DC
+  border: 1px solid #bd9328;
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/light_alu.png")
+
+  
 }
 .bio {
 	font-family: 'Merriweather', serif;
 	margin: auto;
 	display: block;
 	height: 200px;
-	width: 520px;
+  width: 520px;
+  padding: 10px;
 }
 @media screen and (max-width: 700px) {
 	.content{
@@ -232,7 +234,7 @@ h1 {
   .bio {
   	display: inline;
   	text-align: left;
-  	padding-bottom: 5px; 
+  	
   }
   .sidebar a {
   	padding-left: 30px;
