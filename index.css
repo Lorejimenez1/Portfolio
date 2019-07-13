@@ -66,26 +66,28 @@ ul {
 }
 
 .intro-container {
-	border-bottom: 1px solid #bd9328;
+  padding-top: 47px;
+  border-bottom: 1px solid #bd9328;
+  height: 420px;
 }
 .intro-container p {
-
+  color: #333;
 	font-size: 22px;
 }
 
 .intro-logo {
-	padding-bottom: 5px;
 	display: block;
 	margin: auto;
 	height: 200px; 
-	width: 200px;
+  width: 200px;
+  box-shadow: 0px 4px 6px 2px lightgrey;
+  border-radius: 50%;
 }
 h1 {
-	color: #080808;
-	font-weight: bold;
-  font-family: 'Asap', sans-serif;
-
-  padding: 0;
+  color: #333 ;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
 }
 
   .projects-container, .tech-container { 
@@ -114,7 +116,7 @@ h1 {
 .content {
   height: 700px;
   padding: 0;
-  margin: 0;
+  margin: 10px 0px 10px 0px;
   display: flex; /* or inline-flex */
   flex-direction: column ;
   list-style: none;
@@ -204,18 +206,16 @@ h1 {
 }
 .bio {
 	font-family: 'Merriweather', serif;
-	margin: auto;
-	display: block;
-	height: 200px;
-  width: 520px;
+  text-align: center;
   padding: 10px;
 }
 @media screen and (max-width: 700px) {
 	.content{
-		padding: 0px 30px;
+    padding: 0px 30px;
+    margin: 10px;
 	}
   .sidebar {
-    width: 110%;
+    width: 100%;
     height:	80px;
     position: relative;
     padding: 0px;
@@ -232,8 +232,7 @@ h1 {
   	padding: 0;
   }
   .bio {
-  	display: inline;
-  	text-align: left;
+
   	
   }
   .sidebar a {
@@ -249,12 +248,31 @@ h1 {
 }
 @media screen and (max-width: 560px) {
   .sidebar {
-  	height: 120px;
+    height: auto;
+    border: none;
   	}
   	.logo {
-  		margin-top: 25px;
+      margin-top: 25px;
+      display: none
   	}
   	.sidebar a {
-  		font-size: 12px;
-  	}
+      padding: 10px;
+      font-size: 14px;
+      border-right: 1px solid #EEE8AA;
+    }
+    
+    .welcome a {
+      display: none;
+    }
+    nav ul {
+      display: flex;
+      margin: auto;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+
+  
   }
+
+ 
